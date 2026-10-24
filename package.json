@@ -1,0 +1,8 @@
+{
+  "name": "planuri-cu-sens",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@neondatabase/serverless": "1.2.0"
+  }
+}
