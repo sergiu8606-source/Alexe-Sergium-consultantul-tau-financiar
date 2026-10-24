@@ -30,10 +30,10 @@ const proofSections = `
         <p>Poți descărca imaginea și o poți trimite mai departe sau o poți folosi pe materiale tipărite.</p>
         <div class="qr-actions">
           <a class="btn" href="https://alexe-sergium-consultantul-tau-fina.vercel.app/" target="_blank" rel="noopener">Deschide pagina ↗</a>
-          <a class="qr-download" href="cod-qr-planuri-cu-sens.svg" download>Descarcă codul QR ↓</a>
+          <a class="qr-download" href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&amp;data=https%3A%2F%2Falexe-sergium-consultantul-tau-fina.vercel.app%2F" download="cod-qr-planuri-cu-sens.png">Descarcă codul QR ↓</a>
         </div>
       </div>
-      <img class="qr-image" src="cod-qr-planuri-cu-sens.svg" alt="Cod QR către pagina Planuri cu sens">
+      <img class="qr-image" src="https://api.qrserver.com/v1/create-qr-code/?size=600x600&amp;data=https%3A%2F%2Falexe-sergium-consultantul-tau-fina.vercel.app%2F" alt="Cod QR către pagina Planuri cu sens">
     </div>
   </div>
 </section>`;
