@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alexe-sergium-consultantul-tau-fina.vercel.app/sitemap.xml
