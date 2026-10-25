@@ -21,22 +21,7 @@ const proofSections = `
     </div>
   </div>
 </section>
-<section class="section white" id="distribuie">
-  <div class="wrap">
-    <div class="share-panel">
-      <div>
-        <div class="eyebrow">Distribuie pagina</div>
-        <h3>Scanează codul QR pentru a ajunge la site.</h3>
-        <p>Poți descărca imaginea și o poți trimite mai departe sau o poți folosi pe materiale tipărite.</p>
-        <div class="qr-actions">
-          <a class="btn" href="https://alexe-sergium-consultantul-tau-fina.vercel.app/" target="_blank" rel="noopener">Deschide pagina ↗</a>
-          <a class="qr-download" href="cod-qr-planuri-cu-sens.jpg" download="cod-qr-planuri-cu-sens.jpg">Descarcă codul QR ↓</a>
-        </div>
-      </div>
-      <img class="qr-image" src="cod-qr-planuri-cu-sens.jpg" alt="Cod QR către pagina Planuri cu sens">
-    </div>
-  </div>
-</section>`;
+`;
 
 document.querySelector('#solutii')?.insertAdjacentHTML('afterend', proofSections);
-document.querySelector('.nav')?.insertAdjacentHTML('beforeend', '<a href="#testimoniale">Testimoniale</a><a href="#distribuie">Distribuie</a>');
+document.querySelector('.nav')?.insertAdjacentHTML('beforeend', '<a href="#testimoniale">Testimoniale</a>');
